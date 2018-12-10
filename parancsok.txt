@@ -1,0 +1,18 @@
+fel kell tenni egy cygwin-t (csak a basic kell) aztán hozzá kell adni a környezeti változókhoz az elérési utat.
+ezután telepíteni kell a git-smc és ezután már menni fog a cmd-ben minden.
+alap parancsok
+git init - létrehozza az adott mappában a git repot
+git add - hozzáadja a felküldendõkhöz a filet
+git commit -m "komment" - feltölti a repoba a fileokat
+git commit vagy add *.txt - minden txt kiterjesztésû file-t hozzá ad
+git log - kiírja a git logját
+git status - kiírja milyen file-okat kell commitolni
+git remote add fodrasz https://githubrepolink.com - fodrasznak hívjuk a repot és utána megadtuk a hivatkozást ahova mutat
+git push -u fodrasz master - feltölti a fodrasz repo master mappájába a commitokat. -u az az, hogy ezentúl nem kell mindig beírni, az egészet, ha pusholsz akkor automatikusan oda teszi be
+git config - git config - git konfig
+git config --global kolog.email - kiírja a windowson a kolog felhasználónak a giten regisztrált mail címedet ha be van álltva
+git config --global kolog.email "satiuskft@gmail.com" - satiuskft-re állítja a mailt
+git config --global kolog.name "kolog2853" - ezen a néven commitolsz
+git pull fodrasz master --allow-unrelated-histories - ha nem mûködik a pull akkor ez megoldhatja
+git clone https://githubrepolink.com - ha egy teljes létezõ repot szeretnénk lehúzni mappástól
+https://www.youtube.com/watch?v=4NsHUDrD2ek - hetedik rész jön!
